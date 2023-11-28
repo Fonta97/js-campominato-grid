@@ -3,20 +3,39 @@
 <head>
     <meta charset="UTF-8" />
     <title>Campo Minato Boolean</title>
+
+    <!-- setting fontAwesome and css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-    <header>
-        <div>
-            <h1>Campo Minato</h1>
+
+    <!-- sezione header con logo e button -->
+    <header class="container">
+        <div class="wrapper">
+            <img src="img/mobile-logo.png" alt="">
+            <h1 class="title">Campo Minato</h1>
+        </div>
+        <div class="wrapper">
+            <button>Play</button>
         </div>
     </header>
-    <main>
-        <h2 id="result"></h2>
+
+    <!-- sezione main con richiamo a js -->
+    <main class="container wrapper main">
+        <div>
+            <h2 id="result">campo minato</h2>
+        </div>
     </main>
-    <footer>
-        <h2>Made with &hearts; by <a href="">Boolean</a></h2>
+    <footer class="container wrapper footer">
+        <div class="footer_text">
+            <h2>Made with &hearts; by <a href="">Boolean</a></h2>
+        </div>
     </footer>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
