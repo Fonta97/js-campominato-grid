@@ -75,3 +75,8 @@ img {
     border: solid 1px;
     margin: 0;
 }
+
+.clicked {
+    background-color: red;
+    color: red;
+}
