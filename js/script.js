@@ -1,4 +1,5 @@
 const gridElement = document.getElementById("grid");
+let output = 0
 
 for (let i = 0; i < 100; i++) {
 
@@ -6,7 +7,12 @@ for (let i = 0; i < 100; i++) {
 
     gridElement.append(newElement);
 
+    let output = i + 1;
+    newElement.append(output)
+
+
 }
+
 
 function createMyElement(tagtype, classname) {
 
