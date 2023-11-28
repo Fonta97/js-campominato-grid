@@ -34,15 +34,44 @@ img {
     Main CSS
 ****************************************************/
 
-.container.main {
+.container.wrapper.main {
     background-color: aquamarine;
+    width: 100vw;
     margin: 0;
+    justify-content: center;
+    height: 600px;
 }
 
+#grid {
+    display: flex;
+    margin: 0;
+    width: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/***************************************************
+    Footer CSS
+****************************************************/
 .container.footer {
     margin: 0;
 }
 
 .footer_text {
     margin: 10px;
+}
+
+/***************************************************
+    JS CSS
+****************************************************/
+
+.square {
+    text-align: center;
+    color: black;
+    padding: 5px 0;
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    border: solid 1px;
+    margin: 0;
 }
